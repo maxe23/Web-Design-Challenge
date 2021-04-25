@@ -1,0 +1,128 @@
+/* Navbar */
+a.navbar-brand{
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(81, 175, 160);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
+.page-footer{
+    background-color: rgb(92, 90, 90);
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-copyright{
+    color:white;
+    border-top: 5px solid rgb(81, 175, 160)
+}
+
+/* Headings */
+h1{
+    color: rgb(81, 175, 160);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, serif;
+    padding: 15px;
+}
+
+h3{
+    color: rgb(81, 175, 160);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, serif;
+    padding: 15px;
+}
+
+/* Images */
+.img-thumbnail{
+    padding:10px;
+    border: none;
+}
+
+/* Paragraphs */
+p{
+    color: black
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding:10px;
+}
+
+/* body background*/
+body{
+    background-color: rgb(223, 222, 222);
+}
+.col-md-12{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+/* image border styling*/
+.pic{
+    border: 3px solid rgb(81, 175, 160);
+}
+/* navbar styling*/
+.navbar{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right:40px;
+}
+
+.nav-item.dropdown.show {
+    background-color: #ddd;
+}
+
+.active, .dropdown-menu .dropdown-item:active a:hover {
+    background-color: white;
+    }
+.dropdown-item {
+    color:rgb(81, 175, 160);
+    }
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #ff9900;
+    }
+
+.nav-link:hover {
+    background-color:#f6b500;
+    }
+
+.navbar-brand:hover {
+    color: #f67700;
+    }
+
+.active, .panel:hover {
+    border-color:rgb(255, 196, 0);
+    border-style: solid;
+    }
+
+/* content styling*/
+.content {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.content.bg-white {
+    margin-top: 15px;
+}
+
+/* Table */
+.table {
+    font-size: 15px;
+    border-top-color: rgb(255, 255, 255);
+    }
+
+/* small screen adjustments*/
+@media(max-width:767px){
+    .navbar.bg-light{
+        background-color: rgb(81, 175, 160)!important;    
+    }
+
+    .navbar-collapse{
+        background-color: #f8f9fa;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}

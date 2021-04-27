@@ -1,3 +1,17 @@
+/* Headings */
+h1{
+    color: rgb(81, 175, 160);
+    font-family: "Times New Roman", Times, serif;;
+    padding: 15px;
+}
+
+h3{
+    color: rgb(81, 175, 160);
+    font-family:"Times New Roman", Times, serif;;
+    padding: 15px;
+}
+
+
 /* Navbar */
 a.navbar-brand{
     margin-left: 10px;
@@ -5,20 +19,6 @@ a.navbar-brand{
     background-color: rgb(81, 175, 160);
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
-}
-
-
-/* Headings */
-h1{
-    color: rgb(81, 175, 160);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, serif;
-    padding: 15px;
-}
-
-h3{
-    color: rgb(81, 175, 160);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, serif;
-    padding: 15px;
 }
 
 /* Images */
@@ -30,9 +30,9 @@ h3{
 /* Para */
 p{
     color: black
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:"Times New Roman", Times, serif;;
     font-size: large;
-    padding:10px;
+    padding:12px;
 }
 
 /* body back*/
@@ -45,7 +45,7 @@ body{
     padding-bottom:40px;
 }
 
-/* image border styling*/
+/* img borader*/
 .pic{
     border: 3px solid rgb(81, 175, 160);
 }
@@ -53,12 +53,19 @@ body{
 .navbar{
     padding-top:0px;
     padding-bottom: 0px;
-    padding-right:40px;
+    padding-right:5px;
 }
 
 .nav-item.dropdown.show {
     background-color: #ddd;
 }
+.nav-link:hover {
+    background-color:#00bdf6;
+    }
+
+.navbar-brand:hover {
+    color: #00bdf6;
+    }
 
 .active, .dropdown-menu .dropdown-item:active a:hover {
     background-color: white;
@@ -70,20 +77,24 @@ body{
     background-color: #00bdf6;
     }
 
-.nav-link:hover {
-    background-color:#00bdf6;
-    }
-
-.navbar-brand:hover {
-    color: #00bdf6;
-    }
-
 .active, .panel:hover {
     border-color:rgb(60, 131, 172);
     border-style: solid;
     }
+/* small screen*/
+@media(max-width:767px){
+    .navbar.bg-light{
+        background-color: rgb(101, 241, 218)!important;    
+    }
 
-/* content styling*/
+    .navbar-collapse{
+        background-color: #f8f9fa;
+    }
+    .navbar{
+        padding:inherit;
+    }
+
+/* content style*/
 .content {
     padding-top: 50px;
     padding-bottom: 80px;
@@ -94,22 +105,13 @@ body{
     margin-top: 15px;
 }
 
-/* Table */
+/* Tables */
 .table {
     font-size: 15px;
     border-top-color: rgb(255, 255, 255);
     }
-
-/* small screen adjustments*/
-@media(max-width:767px){
-    .navbar.bg-light{
-        background-color: rgb(81, 175, 160)!important;    
-    }
-
-    .navbar-collapse{
-        background-color: #f8f9fa;
-    }
-    .navbar{
-        padding:inherit;
-    }
+/* Images */
+.img-thumbnail{
+    padding:10px;
+    border: none;
 }

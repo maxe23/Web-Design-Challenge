@@ -54,10 +54,12 @@ body{
     padding-top:0px;
     padding-bottom: 0px;
     padding-right:5px;
+    text-align: right;
 }
 
 .nav-item.dropdown.show {
     background-color: #ddd;
+    text-align: right;
 }
 .nav-link:hover {
     background-color:#00bdf6;
@@ -75,10 +77,11 @@ body{
     }
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
     background-color: #00bdf6;
+    text-align: right;
     }
 
 .active, .panel:hover {
-    border-color:rgb(60, 131, 172);
+    border-color:rgb(101, 241, 218);
     border-style: solid;
     }
 /* small screen*/
